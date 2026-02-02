@@ -1,4 +1,4 @@
-**#Experiment 1: EDA in IPL Dataset**
+<img width="709" height="772" alt="Screenshot 2026-02-02 090535" src="https://github.com/user-attachments/assets/88a06df1-cd2c-4a3d-ba2d-6a63473e3a0e" />**#Experiment 1: EDA in IPL Dataset**
 ## NAME: SYED SAIF SYED GHOUSE
 ## REG NUMBER: 212224230286
 **Aim:**
@@ -70,14 +70,12 @@ venue_counts
 ```
  
  **Output**
- <img width="711" height="806" alt="Screenshot 2026-02-02 090524" src="https://github.com/user-attachments/assets/0f3b4a18-bfc6-4078-8670-80af8c1c3da3" />
-<img width="709" height="772" alt="Screenshot 2026-02-02 090535" src="https://github.com/user-attachments/assets/4c8a5776-c521-4609-8aff-47d70b8f5bb1" />
-<img width="710" height="554" alt="Screenshot 2026-02-02 090555" src="https://github.com/user-attachments/assets/2966bd59-f191-4507-a7ef-df6a5ec0a8e8" />
-<img width="714" height="390" alt="Screenshot 2026-02-02 090610" src="https://github.com/user-attachments/assets/e7f7232a-d091-4a60-9fe9-610ca192bd33" />
-<img width="717" height="678" alt="Screenshot 2026-02-02 090619" src="https://github.com/user-attachments/assets/49bf8098-dbe9-435d-860d-e1c97b509a6a" />
+<img width="711" height="806" alt="Screenshot 2026-02-02 090524" src="https://github.com/user-attachments/assets/8b59c7d7-6bc3-44b7-9fd8-99acad21ddc3" />
+<img width="709" height="772" alt="Screenshot 2026-02-02 090535" src="https://github.com/user-attachments/assets/c302ebf8-6094-4ec0-add2-40b3f8b37bc4" />
+<img width="710" height="554" alt="Screenshot 2026-02-02 090555" src="https://github.com/user-attachments/assets/e1069226-f83c-4296-983d-46f47279cfc4" />
+<img width="714" height="390" alt="Screenshot 2026-02-02 090610" src="https://github.com/user-attachments/assets/bb489895-eaf5-430c-8ee4-d3e3b6193bed" />
+<img width="717" height="678" alt="Screenshot 2026-02-02 090619" src="https://github.com/user-attachments/assets/68acc2ac-ee1a-4066-a8a2-8289daba8f3d" />
 
  ** Result**
  ThE experiment is executed successfully.
 
-This experiment is executed successfully
-Highlight the stadiums hosting maximum matches.
