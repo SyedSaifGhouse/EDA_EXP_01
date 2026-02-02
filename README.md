@@ -1,4 +1,4 @@
-<img width="709" height="772" alt="Screenshot 2026-02-02 090535" src="https://github.com/user-attachments/assets/88a06df1-cd2c-4a3d-ba2d-6a63473e3a0e" />**#Experiment 1: EDA in IPL Dataset**
+ **#Experiment 1: EDA in IPL Dataset**
 ## NAME: SYED SAIF SYED GHOUSE
 ## REG NUMBER: 212224230286
 **Aim:**
@@ -70,6 +70,7 @@ venue_counts
 ```
  
  **Output**
+ 
 <img width="711" height="806" alt="Screenshot 2026-02-02 090524" src="https://github.com/user-attachments/assets/8b59c7d7-6bc3-44b7-9fd8-99acad21ddc3" />
 <img width="709" height="772" alt="Screenshot 2026-02-02 090535" src="https://github.com/user-attachments/assets/c302ebf8-6094-4ec0-add2-40b3f8b37bc4" />
 <img width="710" height="554" alt="Screenshot 2026-02-02 090555" src="https://github.com/user-attachments/assets/e1069226-f83c-4296-983d-46f47279cfc4" />
