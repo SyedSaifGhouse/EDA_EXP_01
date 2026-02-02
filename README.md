@@ -1,4 +1,6 @@
 **#Experiment 1: EDA in IPL Dataset**
+## NAME: SYED SAIF SYED GHOUSE
+## REG NUMBER: 212224230286
 **Aim:**
 To perform Exploratory Data Analysis (EDA) on the IPL matches dataset and derive insights about matches per season, winning teams, toss decisions, and top venues.
 
@@ -28,14 +30,54 @@ To perform Exploratory Data Analysis (EDA) on the IPL matches dataset and derive
   Identify teams with consistent winning trends.
   
   **Program**
-  #Write your code here
-
-  **Output**
-  #Add necessary output screenhoets
+  ```
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+matches = pd.read_csv("matches.csv")
+print("Dataset Shape:",matches.shape)
+print("columns:",matches.columns)
+print(matches.head())
+matches_per_season = matches['season'].value_counts().sort_index()
+matches_per_season
+plt.figure()
+matches_per_season.plot(kind='bar')
+plt.xlabel("Season")
+plt.ylabel("Number of Matches")
+plt.title("Matches Played Per IPL Season | SYED SAIF : 212224230286")
+plt.show()
+team_wins = matches['winner'].value_counts()
+team_wins
+top_5_teams = team_wins.head(5)
+top_5_teams
+plt.figure()
+top_5_teams.plot(kind='bar')
+plt.xlabel("Team")
+plt.ylabel("Number of Wins")
+plt.title("Top 5 Winning Teams in IPL | SYED SAIF : 212224230286")
+plt.xticks(rotation=45)
+plt.show()
+toss_decision_counts = matches['toss_decision'].value_counts()
+toss_decision_counts
+plt.figure()
+toss_decision_counts.plot(kind='bar')
+plt.xlabel("Toss Decision")
+plt.ylabel("Number of Times Chosen")
+plt.title("Toss Decision Preference in IPL | SYED SAIF : 212224230286")
+plt.show()
+venue_counts = matches['venue'].value_counts()
+venue_counts
+```
+ 
+ **Output**
+ <img width="711" height="806" alt="Screenshot 2026-02-02 090524" src="https://github.com/user-attachments/assets/0f3b4a18-bfc6-4078-8670-80af8c1c3da3" />
+<img width="709" height="772" alt="Screenshot 2026-02-02 090535" src="https://github.com/user-attachments/assets/4c8a5776-c521-4609-8aff-47d70b8f5bb1" />
+<img width="710" height="554" alt="Screenshot 2026-02-02 090555" src="https://github.com/user-attachments/assets/2966bd59-f191-4507-a7ef-df6a5ec0a8e8" />
+<img width="714" height="390" alt="Screenshot 2026-02-02 090610" src="https://github.com/user-attachments/assets/e7f7232a-d091-4a60-9fe9-610ca192bd33" />
+<img width="717" height="678" alt="Screenshot 2026-02-02 090619" src="https://github.com/user-attachments/assets/49bf8098-dbe9-435d-860d-e1c97b509a6a" />
 
  ** Result**
-  This experiment is executed successfully
+ ThE experiment is executed successfully.
 
-
-
+This experiment is executed successfully
 Highlight the stadiums hosting maximum matches.
