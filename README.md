@@ -1,4 +1,4 @@
- **#Experiment 1: EDA in IPL Dataset**
+**#Experiment 1: EDA in IPL Dataset**
 ## NAME: SYED SAIF SYED GHOUSE
 ## REG NUMBER: 212224230286
 **Aim:**
@@ -69,7 +69,7 @@ venue_counts = matches['venue'].value_counts()
 venue_counts
 ```
  
- **Output**
+ **OUTPUT**
  
 <img width="711" height="806" alt="Screenshot 2026-02-02 090524" src="https://github.com/user-attachments/assets/8b59c7d7-6bc3-44b7-9fd8-99acad21ddc3" />
 <img width="709" height="772" alt="Screenshot 2026-02-02 090535" src="https://github.com/user-attachments/assets/c302ebf8-6094-4ec0-add2-40b3f8b37bc4" />
@@ -77,6 +77,7 @@ venue_counts
 <img width="714" height="390" alt="Screenshot 2026-02-02 090610" src="https://github.com/user-attachments/assets/bb489895-eaf5-430c-8ee4-d3e3b6193bed" />
 <img width="717" height="678" alt="Screenshot 2026-02-02 090619" src="https://github.com/user-attachments/assets/68acc2ac-ee1a-4066-a8a2-8289daba8f3d" />
 
- ** Result**
+ **RESULT**
+ 
  ThE experiment is executed successfully.
 
